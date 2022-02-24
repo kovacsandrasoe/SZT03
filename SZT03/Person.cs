@@ -17,6 +17,8 @@ namespace SZT03
         public DateTime BirthDate { get; set; }
 
         public bool HaveGlasses { get; set; }
+
+        public double Salary { get; set; }
     }
 
     public class Car
