@@ -14,9 +14,18 @@ namespace SZT03
 
         public int Age { get; set; }
 
+        public DateTime BirthDate { get; set; }
+
+        public bool HaveGlasses { get; set; }
+
+        public double Salary { get; set; }
+
         public DateTime MotherBirthDate { get; set; }
 
         public string MotherName { get; set; }
+
+
+
     }
 
     public class Car
